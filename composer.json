@@ -14,7 +14,7 @@
             "homepage": "https://mronnel.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Woenel\\Laravesta\\": "src/"
