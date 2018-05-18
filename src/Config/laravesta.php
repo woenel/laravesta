@@ -8,7 +8,6 @@ return [
 
     'vst_password' => env('VST_PASSWORD', 'p4ssw0rd'),
 
-    'vst_returncode' => true,
-
     'ssl_verify' => false
+    
 ];
