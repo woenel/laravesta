@@ -46,8 +46,8 @@ See [https://vestacp.com/docs/api/#return_codes](https://vestacp.com/docs/api/#r
 use Laravesta;
 
 $res = Laravesta::execute('v-list-user', [
-	'arg1' => 'user01', // username
-	'arg2' => 'json'    // format
+    'arg1' => 'user01', // username
+    'arg2' => 'json'    // format
 ]);
 
 return json_decode($res->getData(), true);
