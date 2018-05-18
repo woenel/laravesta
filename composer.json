@@ -1,0 +1,33 @@
+{
+    "name": "woenel/laravesta",
+    "description": "VestaCP API for Laravel.",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "laravel/framework": "5.5.* || 5.6.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronnel Martinez",
+            "email": "misc.woe@outlook.ph",
+            "homepage": "https://mronnel.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Woenel\\Laravesta\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Woenel\\Laravesta\\LaravestaServiceProvider"
+            ],
+            "aliases": {
+                "Laravesta": "Woenel\\Laravesta\\Facades\\Laravesta"
+            }
+        }
+    }
+}
