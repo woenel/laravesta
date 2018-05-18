@@ -17,7 +17,7 @@ $ php artisan vendor:publish --provider="Woenel\Laravesta\LaravestaServiceProvid
 
 ## Usage
 
-Create User Account
+### Create User Account
 ```
 use Laravesta;
 
@@ -41,7 +41,7 @@ return "Query returned error code: " . $res->getCode();
 
 See [https://vestacp.com/docs/api/#return_codes](https://vestacp.com/docs/api/#return_codes) for returned code meaning.
 
-List User Account
+### List User Account
 ```
 use Laravesta;
 
