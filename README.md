@@ -86,7 +86,7 @@ class VestaCPController extends Controller
             return back()->with('msg', 'User account has been successfuly created');
         }
 
-        return return back()->with('Query returned error code: ' . $res->getCode());
+        return return back()->with('msg', 'Query returned error code: ' . $res->getCode());
     }
 }
 ```
