@@ -7,7 +7,7 @@ VestaCP API for Laravel.
 
 Install using Composer
 ```
-$ composer require woenel/laravesta
+$ composer require woenel/laravesta "^0.2"
 ```
 
 Publish the config file named `laravesta.php` so you can set the hostname, username, password and other configuration.
