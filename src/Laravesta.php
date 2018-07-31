@@ -1,11 +1,11 @@
 <?php
 
-namespace Woenel\Laravesta;
+namespace Woenel;
 
 use GuzzleHttp\Client;
 
-class Laravesta {
-    
+class Laravesta
+{    
     private $postvars;
     private $client;
     private $url;
